@@ -61,4 +61,11 @@ spec:
       }
     }
 }
+
+{
+    always {
+      junit 'target/surefire-reports/*.xml'
+    }
+  }
+  
 }
